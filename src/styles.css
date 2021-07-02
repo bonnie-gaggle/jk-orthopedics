@@ -21,6 +21,11 @@ ul {
 }
 
 /* Services */
+.carousel {
+  width: 640px;
+  height: 360px;
+}
+
 .carousel-inner {
   max-height: 400px;
 }
