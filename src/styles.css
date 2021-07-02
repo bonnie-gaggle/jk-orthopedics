@@ -6,6 +6,33 @@ ul {
   text-align: left;
 }
 
+#banner {
+  max-width: 80%;
+}
+
+/* Navigation */
+.navbar-text {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
 #map {
   text-align: center;
+}
+
+/* Services */
+.carousel-inner {
+  max-height: 400px;
+}
+
+.carousel-inner img {
+  max-height: 400px;
+  margin: 0 auto;
+}
+
+/* For small screens */
+@media (max-width: 576px) {
+  #banner {
+    display: none;
+  }
 }
