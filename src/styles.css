@@ -30,9 +30,41 @@ ul {
   margin: 0 auto;
 }
 
+.pull-right {
+  float: right;
+}
+
+.featurette-image.pull-right {
+  margin-left: 40px;
+}
+
+.service-list {
+  list-style-type: none;
+  justify-content: center;
+}
+
+.services ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.services li {
+  margin: 0 16px;
+}
+
 /* For small screens */
 @media (max-width: 576px) {
   #banner {
     display: none;
+  }
+}
+
+@media (max-width: 786px) {
+  .featurette-image.pull-left,
+  .featurette-image.pull-right {
+    display: block;
+    float: none;
+    max-width: 40%;
+    margin: 0 auto 20px;
   }
 }
